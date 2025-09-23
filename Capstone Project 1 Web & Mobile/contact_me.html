@@ -27,64 +27,65 @@
   <h5 style="color: rgba(255, 0, 0, 0.829);">
     NOTE: I AM EXTEREMLY BUSY, KNOW THAT I AM NOT GONNA CHECK YOUR FORM!
   </h5>
+  <article>
+    <form action="mailto:seramikass@gmail.com" method="post" enctype="text/plain">
 
-  <form action="mailto:seramikass@gmail.com" method="post" enctype="text/plain">
+      <div>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+      </div><br>
 
-    <div>
-      <label for="name">Your Name:</label>
-      <input type="text" id="name" name="name" placeholder="Your Name" required>
-    </div><br>
+      <div>
+        <label for="age">Your Age:</label>
+        <input type="text" id="age" name="age" placeholder="Your Age" required>
+      </div>
 
-    <div>
-      <label for="age">Your Age:</label>
-      <input type="text" id="age" name="age" placeholder="Your Age" required>
-    </div>
+      <div>
+        <p>Select your gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+      </div>
 
-    <div>
-      <p>Select your gender:</p>
-      <input type="radio" id="male" name="gender" value="male" required>
-      <label for="male">Male</label>
-      <input type="radio" id="female" name="gender" value="female" required>
-      <label for="female">Female</label>
-    </div>
+      <div>
+        <p>Do you love me?</p>
+        <input type="checkbox" id="yes" name="do_she/he_loves_me?" value="yes">
+        <label for="yes">Yes</label>
+        <input type="checkbox" id="yes_sir" name="do_she/he_loves_me?" value="yes_sir">
+        <label for="yes_sir">Yes Sir</label>
+        <input type="checkbox" id="hell_yeah" name="do_she/he_loves_me?" value="hell_yeah">
+        <label for="hell_yeah">HELL YEAH</label>
+      </div><br>
 
-    <div>
-      <p>Do you love me?</p>
-      <input type="checkbox" id="yes" name="do_she/he_loves_me?" value="yes">
-      <label for="yes">Yes</label>
-      <input type="checkbox" id="yes_sir" name="do_she/he_loves_me?" value="yes_sir">
-      <label for="yes_sir">Yes Sir</label>
-      <input type="checkbox" id="hell_yeah" name="do_she/he_loves_me?" value="hell_yeah">
-      <label for="hell_yeah">HELL YEAH</label>
-    </div><br>
+      <div>
+        <label for="love_rate">Rate your love toward me from 1 to 10:</label>
+        <select id="love_rate" name="love_rate">
+          <option value="10">10</option>
+          <option value="10">10</option>
+          <option value="10">10</option>
+          <option value="10">10</option>
+          <option value="10">10</option>
+          <option value="10">10</option>
+          <option value="10">10</option>
+          <option value="10">10</option>
+          <option value="10">10</option>
+          <option value="10">10</option>
+        </select>
+      </div><br>
 
-    <div>
-      <label for="love_rate">Rate your love toward me from 1 to 10:</label>
-      <select id="love_rate" name="love_rate">
-        <option value="10">10</option>
-        <option value="10">10</option>
-        <option value="10">10</option>
-        <option value="10">10</option>
-        <option value="10">10</option>
-        <option value="10">10</option>
-        <option value="10">10</option>
-        <option value="10">10</option>
-        <option value="10">10</option>
-        <option value="10">10</option>
-      </select>
-    </div><br>
+      <div>
+        <label for="bio">About you:</label><br>
+        <textarea id="bio" name="bio" rows="10" cols="50" placeholder="Write about yourself..." required></textarea>
+      </div>
 
-    <div>
-      <label for="bio">About you:</label><br>
-      <textarea id="bio" name="bio" rows="10" cols="50" placeholder="Write about yourself..." required></textarea>
-    </div>
+      <div>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear Form">
+      </div>
 
-    <div>
-      <input type="submit" value="Register">
-      <input type="reset" value="Clear Form">
-    </div>
-
-  </form>
+    </form>
+  </article>
 </body>
   
 </html>

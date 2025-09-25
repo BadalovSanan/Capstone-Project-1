@@ -83,3 +83,10 @@ label[for="hell_yeah"]::after {
     width: 100px;
     height: 100px;
 }
+
+hr {
+    width: 75%;
+    border: 2px dashed rgb(255, 77, 0);
+    margin: 5px 0px;
+
+}

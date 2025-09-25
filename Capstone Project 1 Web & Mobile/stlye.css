@@ -1,0 +1,85 @@
+body {
+  background-color: #f1f2f3;
+  font-family: Arial, sans-serif;
+  width: 90%;
+  margin: 0 auto;
+}
+a:link {
+    color: #0000EE;
+}
+
+a:visited {
+    color: #551A8B;
+}
+
+a:hover { 
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+a:active {
+    color: #00ff26;
+}
+
+*::selection {
+    background-color: rgb(53, 53, 244);
+    color: rgb(222, 212, 212);
+}
+
+li::marker {
+    color: darkgreen;
+    font-size: 19px;
+}
+
+table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+th, td {
+  padding: 5px;
+  text-align: center;
+}
+
+#profile_pic:hover { /* I didn't make my profile pic circle, because it is already. It's done with border-radius: 50%; */
+    width: 111px;
+    height: 111px;
+}
+
+#bio {
+    background-image: url("images/sea.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.love-ya-like-a-sister-regular span {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-size: 19px;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(images/pixel_hearts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+label[for="hell_yeah"]::after {
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background-image: url("images/fire_1f525.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+#idc {
+    width: 19px;
+    height: 19px;
+    margin: 0%;
+}
+#idc:hover {
+    width: 100px;
+    height: 100px;
+}

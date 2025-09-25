@@ -10,11 +10,14 @@
   <title>GPD - Contact Me</title>
   <link rel="icon" type="image/x-icon" href="images/favicon_io/favicon.ico">
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon_io/favicon.ico">
-  <img src="images/army_profile_picture.png" alt="My Profile Picture" height="100" width="100">
+  <img id="profile_pic" src="images/army_profile_picture.png" alt="My Profile Picture" height="100" width="100">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="stlye.css">
 </head>
 
-<body>
+<body class="contact_me">
   <header>
       <nav>
         <a href="home.html" target="_self">Home</a>
@@ -53,7 +56,7 @@
       </div>
 
       <div>
-        <p>Do you love me?</p>
+        <p class="love-ya-like-a-sister-regular"><span>Do you love me?</span></p>
         <input type="checkbox" id="yes" name="do_she/he_loves_me?" value="yes">
         <label for="yes">Yes</label>
         <input type="checkbox" id="yes_sir" name="do_she/he_loves_me?" value="yes_sir">
@@ -86,6 +89,7 @@
       <div>
         <input type="submit" value="Register">
         <input type="reset" value="Clear Form">
+        <image id="idc" src="images/i-dont-care.png" alt="i dont care"></image>
       </div>
 
     </form>
